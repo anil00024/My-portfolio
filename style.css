@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: -5;
+    padding: -3;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+header {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 0px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -5;
+    padding-top: -3;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-top: -5;
+    padding-top: -3;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('photo1.jpg') no-repeat center center/cover;
+    color: #000000;
+    text-align: left;
+    font-family: 'rodeluxt';
+    margin-top: 20px;
+    padding-top: 20px;
+    
+}
+
+.heading1 {
+    text-align: left;
+    
+}
+
+.para1 {
+    color: #134611;
+    font-weight: 'czesko';
+
+}
+
+.highlight {
+    color: #000000;
+    font-weight: bold;
+}
+
+.about1 {
+    color: #0b1354;
+    text-decoration: underline;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about, .projects, .contact {
+    padding: 60px 20px;
+    text-align: center;
+    border: 25px;
+
+}
+
+/* Projects */
+.projects {
+    background: #f4f4f4;
+}
+
+.project-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact {
+    background: #222;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
